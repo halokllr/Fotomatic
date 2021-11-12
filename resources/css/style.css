@@ -38,13 +38,16 @@ html {
 
 header {
   position: fixed;
+  height: 85px;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 10;
 }
 
 header .content {
   display: flex;
+  /* justify-content: ; */
   align-items: center;
   padding: 1.875rem;
 }
@@ -116,7 +119,11 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+  height: 43.5em;
+  background-image: url("../images/banner-landingpage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -124,6 +131,7 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin: 170px;
 }
 
 #sign-up-cta .content {
@@ -148,7 +156,8 @@ header .mobile {
 }
 
 #sign-up-cta .cursive {
-  font-family: "Damion", cursive;
+  font-family: "Damion";
+  font-style: italic;
 }
 
 #sign-up-cta .striking {
@@ -336,6 +345,7 @@ header .mobile {
 
 #quotes-section content {
   padding: 5rem 0;
+  font-style: italic;
 }
 
 #quotes-section quote {
