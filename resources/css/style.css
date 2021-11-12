@@ -303,8 +303,14 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: inline-flex;
+  flex-flow: row;
   max-width: 100%;
   padding: 0 1%;
+}
+
+#filters-section img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
